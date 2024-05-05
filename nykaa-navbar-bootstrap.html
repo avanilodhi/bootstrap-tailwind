@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nykaa Navbar</title>
+  
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  
+  
+  <style>
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar-top {
+      background: linear-gradient(25deg, pink, yellow);
+      color: black;
+    }
+
+    .navbar-bottom {
+      background-color: #fff;
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    }
+    .navbar-brand img {
+      max-width: 100px;
+    }
+    .navbar-nav.left-items {
+      margin-right: auto;
+      color: black;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .search-nav {
+      margin-left: auto;
+      border-radius: 70%;
+    }
+    .signin-btn {
+      background-color: #fc2779;
+      color: #000000;
+      
+    }
+
+    .shopping-bag-logo img {
+      max-height: 25px;
+    }
+
+    .sale-btn {
+      background-color: pink;
+      color: #fff;
+    }
+
+
+  </style>
+
+
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light navbar-top">
+        <div class="container">
+
+
+          <!-- First Row: Get App, Stores & Events, Gift Cards, Help -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Get App  | </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Stores & Events  | </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gift Cards  | </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Help  | </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <nav class="navbar navbar-expand-lg navbar-light navbar-bottom">
+        <div class="container">
+
+          <!-- Second Row: Nykaa Logo, Categories, Brand, Lux, Nykaa Fashion, Beauty Advice, Search, Sign In, Shopping Bag -->
+          <a class="navbar-brand" href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Nykaa_New_Logo.svg" alt="Nykaa Logo"></a>
+          <ul class="navbar-nav left-items">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Brand</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lux</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nykaa Fashion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Beauty Advice</a>
+            </li>
+          </ul>
+          <form class="form-inline search-nav">
+            <input class="form-control mr-2" type="search" placeholder="Search on Nykaa" aria-label="Search">
+            <button class="btn btn-outline-secondary signin-btn" type="button">Sign In</button>
+            <a class="nav-link shopping-bag-logo" href="#"><img src="https://cdn-icons-png.freepik.com/512/7420/7420532.png" alt="Shopping Bag"></a>
+          </form>
+        </div>
+      </nav>
+
+
+      <nav class="navbar navbar-expand-lg navbar-light navbar-bottom">
+        <div class="container">
+          <!-- Third Row: Makeup, Hair, Appliances, Bath & Body, Natural, Mom & Baby, Health & Wellness, Men, Fragrance, Lingerie & Accessories, Sale Button -->
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Makeup</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hair</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Appliances</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Bath & Body</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Natural</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mom & Baby</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Health & Wellness</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Men</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Fragrance</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lingerie & Accessories</a>
+            </li>
+          </ul>
+          <button class="btn sale-btn">Sale</button>
+        </div>
+      </nav>
+      
+    
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>
